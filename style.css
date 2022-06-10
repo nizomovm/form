@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(59, 184, 233);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify content: center align itims:center
+}
+.contener {
+    max-width: 700px;
+    width: 100%;
+    height: 50vh;
+    margin: 200px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(55, 109, 227);
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: linear-gradient(25deg, #001456, #1b5086, #2191b8, #00d7ed)
+
+}
+h1{
+    font-family:algerian ;
+    font-weight: 100;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 25px;
+    border:none;
+}
+input:focus{
+    outline: none;
+}
+.login{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(253, 253, 253);
+
+}
+.login:hover{
+    /* background-color: rgb(52, 159, 247); */
+    color: black; 
+    font-size:30px ;
+    transition: all 1s;
+    font-family: algerian;
+    background-image: linear-gradient(25deg, #001456, #1b5086, #2191b8, #00d7ed)
+
+}
+.contener:hover{
+background-color: black;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+        color: #0067ed;
+}
+
+
+
+
+
+
+
+
+/* 
+
+display: flex;
+justify content:center align itims:center */
